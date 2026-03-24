@@ -8,6 +8,7 @@ import { EventsService } from '../../core/events.service';
   imports: [EventCard, SearchBar],
   template: `
     <div class="mb-8">
+      <!--  <h1 class="text-3xl font-bold text-gray-900 mb-4">Upcoming Events</h1> -->
       <h1 class="text-3xl font-bold text-gray-900 mb-4">Upcoming Events</h1>
       <!-- TODO Mod 1: Add SearchBar here -->
       <app-search-bar [(query)]="searchQuery" />
